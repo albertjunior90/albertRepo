@@ -1,0 +1,9 @@
+com\mitocode\rest\RestDemoController.class
+com\mitocode\repo\IPersonaRepo.class
+com\mitocode\SecurityConfig.class
+com\mitocode\DemoWebApplication.class
+com\mitocode\service\UserService.class
+com\mitocode\model\Persona.class
+com\mitocode\repo\IUsuarioRepo.class
+com\mitocode\controller\DemoController.class
+com\mitocode\model\Usuario.class
