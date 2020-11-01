@@ -11,6 +11,7 @@
  
 </head>
 <body>
+	
   <div class="container text-center">
     <h1>Bienvenido a nuestra tienda</h1>      
     <p>Busque entre nuestros increibles productos</p>
@@ -24,7 +25,6 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -40,3 +40,6 @@
     </div>
   </div>
 </nav>
+<div align='center'>
+  <img src='logo.png' width = '100' height = '100' class="center">
+</div>
