@@ -29,12 +29,12 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Inicio</a></li>
-        <li><a href="/products/all">Productos</a></li>
+        <li><a href="/productos/todos">Productos</a></li>
         <li><a href="#">Tiendas</a></li>
         <li><a href="#">Contacto</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Log in</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Autenticar</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Carrito</a></li>
       </ul>
     </div>
