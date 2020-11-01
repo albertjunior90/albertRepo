@@ -12,29 +12,29 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mitocode.model.Persona;
-import com.mitocode.repo.IPersonaRepo;
+import com.mitocode.model.Producto;
+import com.mitocode.repo.IProductoRepo;
 
 @RestController
-@RequestMapping("/personas")
+@RequestMapping("/productos")
 public class RestDemoController {
 	
 	@Autowired
-	private IPersonaRepo repo;
+	private IProductoRepo repo;
 	
 	@GetMapping
-	public List<Persona> listar(){
+	public List<Producto> listar(){
 		return repo.findAll();
 	}
 	
 	@PostMapping
-	public void insertar(@RequestBody Persona per){
-		repo.save(per);
+	public void insertar(@RequestBody Producto pr){
+		repo.save(pr);
 	}
 	
 	@PutMapping
-	public void modificar(@RequestBody Persona per){
-		repo.save(per);		
+	public void modificar(@RequestBody Producto pr){
+		repo.save(pr);		
 	}
 
 	@DeleteMapping(value = "/{id}")
