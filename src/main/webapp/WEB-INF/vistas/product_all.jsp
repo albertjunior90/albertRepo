@@ -11,7 +11,7 @@
 		<p>Vendedor :  ${product.seller} </p>  
         </div>
         <div class="panel-footer"> <button type="button" class="btn btn-primary btn-md"
-           onClick="location.href='/products/${product.id} ' ">Browse</button></div>
+           onClick="location.href='/productos/${product.id}' ">Browse</button></div>
       </div>
     </div>
     </c:forEach>

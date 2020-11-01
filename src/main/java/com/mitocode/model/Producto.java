@@ -1,5 +1,6 @@
 package com.mitocode.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -7,14 +8,25 @@ import javax.persistence.Id;
 public class Producto {
 
 	@Id
-	private String id;
+	private int id;
+	
+	@Column(name = "name")
 	private String name;
+
+	@Column(name = "description")
 	private String description;
+
+	@Column(name = "price")	
 	private double price;
-	private String seller;
 	
+	@Column(name = "seller")
+	private String seller;	
 	
-	public Producto(String id, String name, String description, double price, String seller) {
+	public Producto() {
+		
+	}
+	
+	public Producto(int id, String name, String description, double price, String seller) {
 		this.id = id;
 		this.name = name;
 		this.description = description;
@@ -23,10 +35,10 @@ public class Producto {
 	}
 	
 	
-	public String getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getName() {
