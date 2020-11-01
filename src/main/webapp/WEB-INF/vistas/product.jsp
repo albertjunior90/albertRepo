@@ -7,7 +7,7 @@
       <div class="panel panel-primary">
         <div class="panel-heading"> ${product.name} </div>
         <div class="panel-body">
-        <p>DescripciÃ³n : ${product.description}  </p>
+        <p>Descripción : ${product.description}  </p>
         <p>Precio : ${product.price}  </p>
 		<p>Vendedor :  ${product.seller} </p>  
         </div>

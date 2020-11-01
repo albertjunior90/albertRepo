@@ -26,7 +26,7 @@ public class ProductoController {
       @GetMapping("/{productId}")
       public String getProductById(Model model, @PathVariable("productId") int productId) {
     	 
-    	  model.addAttribute("product",productoRepo.findById(productId));
+    	  model.addAttribute("product",productoRepo.findById(productId).get());
     	  return "product";
       }      
 }
